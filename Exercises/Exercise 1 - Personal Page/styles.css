@@ -1,0 +1,131 @@
+.top-container {
+    background-color: rgb(217, 255, 242);
+    position: relative; /* We want to centre the children relative the the top container (parent), so for that the parent needs a relative position */
+    width: 100%;
+    height: 100%;
+    padding-top: 50px
+}
+
+h1 {
+    margin:0px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 8rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-size: 3rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+.profile{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+
+body{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    font-size: 1.3em;
+}
+
+.Filipe{
+    text-decoration: underline;
+}
+
+.top-cloud {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.bottom-cloud {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom: 200px;
+    right: 300px;
+}
+
+.cad-img{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.robot-arm-img{
+    width: 20%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-photo {
+    width: 20%;
+    height: auto;
+    border-radius: 100%;
+    margin: 100px auto 30px auto;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-color: #c2cccc;
+    border-width: 12px;
+    width: 5%;
+    margin: 100px auto 100px auto;
+}
+
+.btn {
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 33px;
+    background: #11999E;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+  }
+
+  .btn:hover {
+    background: #ff9900;
+    text-decoration: none;
+  }
+
+  .footer-link{
+    color: #0d7579;
+    text-decoration:none;
+    word-spacing: 10px;
+  }
+
+  .bottom-container{
+    background-color:#55b8bb; ;
+    margin: 130px auto 0 auto;
+    padding: 50px;
+  }
+
+  a{
+    padding: 10px;
+  }
